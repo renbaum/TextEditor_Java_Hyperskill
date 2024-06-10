@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="editor.TextEditor">
+  <grid id="27dc6" binding="MainPanel" layout-manager="BorderLayout" hgap="10" vgap="10">
+    <constraints>
+      <xy x="138" y="20" width="482" height="450"/>
+    </constraints>
+    <properties>
+      <minimumSize width="300" height="300"/>
+      <preferredSize width="300" height="300"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="cebe2" binding="BorderPanel" layout-manager="BorderLayout" hgap="10" vgap="10">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="bb0d8" binding="TopPanel" layout-manager="GridLayoutManager" row-count="1" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints border-constraint="North"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="a7098" class="javax.swing.JTextField" binding="SearchField">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <name value="FilenameField"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="ce9c" class="javax.swing.JButton" binding="LoadButton">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <name value="LoadButton"/>
+                  <text value="Load"/>
+                </properties>
+              </component>
+              <component id="3a1d3" class="javax.swing.JButton" binding="SaveButton">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <name value="SaveButton"/>
+                  <text value="Save"/>
+                </properties>
+              </component>
+              <component id="e8f2" class="javax.swing.JButton" binding="SearchButton">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Button"/>
+                </properties>
+              </component>
+              <component id="b73cf" class="javax.swing.JButton" binding="PrevButton">
+                <constraints>
+                  <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Button"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="e15aa" class="javax.swing.JTextArea" binding="TextArea">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <name value="TextArea"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <hspacer id="d1961">
+        <constraints border-constraint="North"/>
+      </hspacer>
+      <hspacer id="1cb5f">
+        <constraints border-constraint="West"/>
+      </hspacer>
+      <vspacer id="c538b">
+        <constraints border-constraint="East"/>
+      </vspacer>
+      <hspacer id="7b9eb">
+        <constraints border-constraint="South"/>
+      </hspacer>
+    </children>
+  </grid>
+</form>
